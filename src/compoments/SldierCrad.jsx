@@ -4,11 +4,13 @@ import rating_card_img from '../assets/imges/png/rating-card-img.png'
 import Slider from "react-slick";
 import star_1 from '../assets/imges/png/star_1.png'
 import star_2 from '../assets/imges/png/star_2.png'
+
+
 const SldierCrad = () => {
     var settings = {
         dots: true,
         infinite: true,
-        autoplay: true,
+        autoplay: false,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -38,7 +40,7 @@ const SldierCrad = () => {
         <div className='py-3 pb-5 py-md-4 py-lg-5 overflow-hidden'>
             <Container className='py-3 py-md-4 py-lg-5'>
                 <h1 data-aos="zoom-in-right" data-aos-duration="1500" className='d-flex align-items-center justify-content-center ff_primary fs_3lg fw_regular color_secondary'>Наши площадки</h1>
-                <p data-aos="flip-right" data-aos-duration="1500"  className='ff_primary color_primary fw_regular fs_3md text-center ltr_spacing'>Каждый отзыв по-особенному  ценный для нас. Ведь для этого было <span className='d-xl-block'>проделано большой совместный путь. Успех состоит из доверие,</span> готовности к развитию и перемен.</p>
+                <p data-aos="flip-right" data-aos-duration="1500" className='ff_primary color_primary fw_regular fs_3md text-center ltr_spacing'>Каждый отзыв по-особенному  ценный для нас. Ведь для этого было <span className='d-xl-block'>проделано большой совместный путь. Успех состоит из доверие,</span> готовности к развитию и перемен.</p>
                 <Slider {...settings} className='py-3 py-md-4 py-lg-5'>
                     <div className='px-2 px-sm-3 px-md-4 d-flex justify-content-center hoverCard'>
                         <div className='card' data-aos="fade-down" data-aos-duration="1500" data-aos-anchor-placement="center-bottom">

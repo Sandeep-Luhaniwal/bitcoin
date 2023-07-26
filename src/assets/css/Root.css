@@ -21,7 +21,7 @@ font-family: 'Poppins', sans-serif; */
     --fs-2lg: 25px;
     --fs-3lg: 26px;
     --fs-xl: 28px;
-    --fs-2xl: 30px;
+    --fs-2xl: 28px;
     --fs-3xl: 39px;
     --fs-xxl: 40px;
 
@@ -205,12 +205,12 @@ font-family: 'Poppins', sans-serif; */
         --fs-md: 18px;
         --fs-2md: 18px;
         --fs-3md: 20px;
-        --fs-lg: 36px;
-        --fs-2lg: 40px;
-        --fs-3lg: 43px;
-        --fs-xl: 48px;
-        --fs-2xl: 50px;
-        --fs-3xl: 74px;
+        --fs-lg: 26px;
+        --fs-2lg: 27px;
+        --fs-3lg: 30px;
+        --fs-xl: 35px;
+        --fs-2xl: 40px;
+        --fs-3xl: 49px;
         --fs-xxl: 50px;
     }
 }
@@ -226,13 +226,13 @@ font-family: 'Poppins', sans-serif; */
         --fs-md: 22px;
         --fs-2md: 24px;
         --fs-3md: 28px;
-        --fs-lg: 36px;
-        --fs-2lg: 40px;
-        --fs-3lg: 43px;
-        --fs-xl: 48px;
-        --fs-2xl: 50px;
-        --fs-3xl: 74px;
-        --fs-xxl: 75px;
+        --fs-lg: 30px;
+        --fs-2lg: 32px;
+        --fs-3lg: 36px;
+        --fs-xl: 42px;
+        --fs-2xl: 45px;
+        --fs-3xl: 60px;
+        --fs-xxl: 62px;
     }
 }
 
@@ -255,12 +255,5 @@ font-family: 'Poppins', sans-serif; */
         --fs-3xl: 74px;
         --fs-xxl: 75px;
 
-        --primary-color: #222B32;
-        --secondary-color: #252B42;
-        --white-color: #FFFFFF;
-        --black-color: #000000;
-        --blue-color: #8093F6;
-        --dark-color: #2091F9;
-        --dot-color: #1A74C7;
     }
 }

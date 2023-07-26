@@ -22,9 +22,9 @@ const Header = () => {
                                 </div>
                                 <div className='d-flex gap-80 align-items-center opcity'>
                                     <Link className='d-none d-md-block'><img src={mainLogo} alt="mainlogo" /></Link>
-                                    <Link className='ff_primary line position-relative fs_md color_white fw_light opcity_1'>Особенности</Link>
-                                    <Link className='ff_primary line position-relative fs_md color_white fw_light opcity_1'>Отзывы</Link>
-                                    <Link className='ff_primary line position-relative fs_md color_white fw_light opcity_1'>Инвестиция</Link>
+                                    <Link onClick={() => setMenu(false)} className='ff_primary line position-relative fs_md color_white fw_light opcity_1'>Особенности</Link>
+                                    <Link onClick={() => setMenu(false)} className='ff_primary line position-relative fs_md color_white fw_light opcity_1'>Отзывы</Link>
+                                    <Link onClick={() => setMenu(false)} className='ff_primary line position-relative fs_md color_white fw_light opcity_1'>Инвестиция</Link>
                                 </div>
                             </div>
                             <div className='gap-3 d-flex  opcity'>
@@ -53,14 +53,14 @@ const Header = () => {
                                     <button className='ff_primary fw_bold fs_3sm border-0 ms-xl-40 ms-lg-30 inline-btn hover-dark mt-3 mt-sm-0 mt-lg-0 bg_white color_secondary'>Подробнее</button>
 
                                 </div>
-                                <div className='d-sm-flex gap-80 pt-lg-58'>
+                                <div className='d-flex gap-80 pt-lg-58'>
                                     <div className='d-flex align-items-center'>
-                                        <p className='color_blue fs_2xl fw_bold ff_primary mb-0 me-2'>360</p>
+                                        <p className='color_blue fs_2xl fw_bold ff_primary mb-0 me-1 me-sm-2'>360</p>
                                         <span className='color_blue fs_2xs mb-0'>Довольных
                                             <span className='d-block mb-0'> клиентов</span></span>
                                     </div>
                                     <div className='d-flex align-items-center'>
-                                        <p className='color_blue fs_2xl fw_bold ff_primary mb-0 me-2'>330K</p>
+                                        <p className='color_blue fs_2xl fw_bold ff_primary mb-0 me-1 me-sm-2'>330K</p>
                                         <span className='color_blue fs_2xs mb-0'>заработанных
                                             <span className='d-block mb-0'> долларов</span></span>
                                     </div>

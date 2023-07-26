@@ -13,7 +13,7 @@ const Footer = () => {
             <Col lg={2} sm={4}>
               <img src={main_Logo} alt="mainlogo" />
             </Col>
-            <Col lg={5} sm={8} className='pt-4 pt-sm-0'>
+            <Col lg={4} sm={8} className='pt-4 pt-sm-0'>
               <address className='ff_secondary fw_regular color_white fs_2md mb-0'>
                 123 Market St. #22B
                 <span className='d-lg-block'>Charlottesville, California</span> 44635
@@ -37,7 +37,7 @@ const Footer = () => {
                 <li className='pt-lg-2'><Link className='fs_xs line position-relative ff_poppins fw_regular color_white op-75'>Instagram</Link></li>
               </ul>
             </Col>
-            <Col lg={1} xs={4} sm={2} className='pt-4 pt-lg-0 '>
+            <Col lg={2} xs={4} sm={2} className='pt-4 pt-lg-0 '>
               <div className='box_circle d-flex justify-content-center align-items-center'>
                 <TopIcon />
               </div>

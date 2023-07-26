@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import maskImg_1 from '../assets/imges/png/Mask-group-1.png'
 import maskImg_2 from '../assets/imges/png/Mask-group-2.png'
 import businessman from '../assets/imges/png/businessman-man.png'
 import { PlayIcon } from './Icon'
+import ReactPlayer from 'react-player'
+import video from '../assets/Video/video_20220722_005838.mp4'
 
 const Bussinessman = () => {
+    const [play, setPaused] = useState(false);
     return (
         <>
             <Container className='my-3 my-md-4 my-lg-5 overflow-hidden'>
@@ -16,10 +19,11 @@ const Bussinessman = () => {
                         </div>
                         <div className='gap-5 d-flex justify-content-center py-4 py-md-0'>
                             <div className='position-relative d-flex justify-content-center h-473 w-235' data-aos='zoom-out-up' data-aos-duration='2000'>
-                                <img className='w-100 mb-xl-5 mb-xxl-0 br_35' src={maskImg_1} alt="mask" />
-                                <div className='position-absolute position cursor-poiner boxBtn d-flex justify-content-center align-items-center'>
+                                {play ? <img className='w-100 mb-xl-5 mb-xxl-0 br_35' src={maskImg_1} alt="mask" /> : <ReactPlayer className='w-100' url={video} controls={true} height={'459px'} width={'100%'} />}
+                                <div onClick={() => setPaused(!play)} className='position-absolute position cursor-poiner boxBtn d-flex justify-content-center align-items-center'>
                                     <PlayIcon />
                                 </div>
+
                             </div>
                             <div className='position-relative d-flex justify-content-center d-none d-sm-block mt-md-78 h-473 w-235' data-aos='zoom-in' data-aos-duration='2000'>
                                 <img className='w-100  br_35' src={maskImg_2} alt="mask" />
@@ -49,6 +53,7 @@ const Bussinessman = () => {
                         </div>
                     </Col>
                 </Row>
+
             </Container>
         </>
     )
