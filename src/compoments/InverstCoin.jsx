@@ -98,7 +98,7 @@ const InverstCoin = () => {
                     </div>
                 </div>
                 <div className='p-xl-5 p-md-4 px-2 position-relative br_35'>
-                    {play ? <img className='w-100 br_35' src={SlideImage2} alt="" /> : <ReactPlayer autoplay={true} muted={true} className={'p-md-4 px-2 br_35'} url={video} controls={true} height={'250px'} width={'100%'} />}
+                    {play ? <ReactPlayer autoplay={true} muted={true} className={'p-md-4 px-2 br_35'} url={video} controls={true} height={'250px'} width={'100%'} /> : <img className='w-100 br_35' src={SlideImage2} alt="" /> }
                     <div onClick={() => setPaused(!play)} className='position-absolute position cursor-poiner boxBtn d-flex justify-content-center align-items-center'>
                         <PlayIcon />
                     </div>

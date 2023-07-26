@@ -29,7 +29,7 @@ function App() {
       preloader.classList.add('d-none')
       preloader.classList.add('pointer-event-none')
       document.body.classList.remove('overflow-hidden')
-    }, 1)
+    }, 2500)
     document.body.classList.add('overflow-hidden')
 
   }, []);

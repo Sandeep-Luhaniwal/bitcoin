@@ -19,7 +19,7 @@ const Bussinessman = () => {
                         </div>
                         <div className='gap-5 d-flex justify-content-center py-4 py-md-0'>
                             <div className='position-relative d-flex justify-content-center h-473 w-235' data-aos='zoom-out-up' data-aos-duration='2000'>
-                                {play ? <img className='w-100 mb-xl-5 mb-xxl-0 br_35' src={maskImg_1} alt="mask" /> : <ReactPlayer className='w-100' url={video} controls={true} height={'459px'} width={'100%'} />}
+                                {play ? <ReactPlayer className='w-100' url={video} controls={true} height={'459px'} width={'100%'} /> : <img className='w-100 mb-xl-5 mb-xxl-0 br_35' src={maskImg_1} alt="mask" />}
                                 <div onClick={() => setPaused(!play)} className='position-absolute position cursor-poiner boxBtn d-flex justify-content-center align-items-center'>
                                     <PlayIcon />
                                 </div>
